@@ -21,6 +21,7 @@ top: 53%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: #ffffff;
+transition-duration: 0.4s;
 }
 
 .dynam-text {
@@ -31,21 +32,6 @@ top: 70%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: #ffffff;
+transition-duration: 0.4s;
 }
 
-a.contact-button {
-    color:#FABB24;
-    border: 3px solid  #FFFFFF;
-    padding: 8px 20px;
-    text-decoration: none;
-    background-color: #b8815440;
-    display: inline-block;
-    margin-top: 710px;
-    font-size: 18px;
-}
-
-
-a.contact-button:hover {
-    color: white;
-    border: 3px solid white;
-}
