@@ -8,7 +8,7 @@ body {
 .dynam-image {
     background-image: url("dynamfit-opacity1.jpg");
     background-color: #cccccc;
-    height: 1000px;
+    height: 1200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    transition-duration: 0.4s;   
+ 
 }
 h1 { 
     color: rgb(15, 9, 5); 
@@ -30,6 +30,7 @@ h1 {
 
 img.logo-profil{
     height:190px;
+    
 }
 
 /*BOUTON page 1*/
