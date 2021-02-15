@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .dynam-image {
@@ -22,15 +22,45 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    animation-name: focus-in-contract;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    
 }
 h1 { 
     color: rgb(15, 9, 5); 
 }
 
 img.logo-profil{
-    height:450px;
-    
+    height:450px;  
 }
+
+
+div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  @keyframes focus-in-contract {
+    0%{
+      letter-spacing: 1em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100%{
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+
+
 
 /*BOUTON page 1*/
 
