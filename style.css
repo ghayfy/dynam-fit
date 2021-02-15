@@ -31,6 +31,7 @@ body {
     animation-fill-mode: none;
     
 }
+
 h1 { 
     color: rgb(15, 9, 5); 
 }
@@ -45,19 +46,19 @@ div.at-container {
     align-items: center;
     justify-content: center;
     height: 100%;
-  }
+}
 
-  @keyframes focus-in-contract {
-    0%{
-      letter-spacing: 1em;
-      filter: blur(12px);
-      opacity: 0;
-    }
-    100%{
-      filter: blur(0);
-      opacity: 1;
-    }
-  }
+@keyframes focus-in-contract {
+0%{
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+}
+100%{
+    filter: blur(0);
+    opacity: 1;
+}
+}
   
 
 
@@ -82,4 +83,20 @@ a.contact-button:hover {
 
 
 /* RESPONSIVE DESIGN : MOBILE */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    img.logo-profil{
+    height:250px;  
+}
+
+.dynam-image {
+    background-image: url("dynamfit-opacity1.jpg");
+    background-color: #cccccc;
+    height: 590px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+}
