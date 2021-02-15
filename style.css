@@ -85,7 +85,7 @@ a.contact-button:hover {
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
     img.logo-profil{
-    height:170px;  
+    height:140px;  
 }
 
 .dynam-image {
