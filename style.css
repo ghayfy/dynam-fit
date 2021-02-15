@@ -85,18 +85,15 @@ a.contact-button:hover {
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
     img.logo-profil{
-    height:250px;  
+    height:170px;  
 }
 
 .dynam-image {
-    background-image: url("dynamfit-opacity1.jpg");
-    background-color: #cccccc;
     height: 660px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
+.dynam-text {
+    top: 69%;
+}
 
 }
