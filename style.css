@@ -25,39 +25,40 @@ body, html {
   
 
   /* Position text in the middle of the page/image */
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    font-size: 80px;
-    border: 10px solid #f1f1f1;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 500px;
-    padding: 20px;
-    text-align: center;
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 1px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
   }
 
 /*BOUTON page 1*/
 
 a.contact-button {
-    color:white;
-    font-weight: bold;
-    border: 3px solid  white;
-    position: fixed;
-    padding: 8px 20px;
-    text-decoration: none;
-    background-color: #b8815440;
-    display: inline-block;   
-    font-size: 20px;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+  color:white;
+  font-weight: bold;
+  border: 1px solid  white;
+  position: fixed;
+  padding: 8px 20px;
+  text-decoration: none;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  display: inline-block;   
+  font-size: 20px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 a.contact-button:hover {
@@ -66,31 +67,91 @@ a.contact-button:hover {
 }
 
 
-.menu {
-    font-weight: bold;
-    position: fixed;
-    display: inline-block; 
-    font-size: 18px;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
+img{
+
+  font-weight: bold;
+  border: 1px solid  white;
+  position: fixed;
+  padding: 8px 20px;
+  text-decoration: none;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  display: inline-block;   
+  font-size: 20px;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
-.menu:hover {
-    color: white;
-}
+
+
+
+
+
+
+.indentmenu{
+  font: bold 13px Arial;
+  width: 100%; /*leave this value as is in most cases*/
+  overflow: hidden;
+  position: fixed;
+  display: inline-block; 
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  text-align: center;
+  padding: 4px 10px;
+  font-size: 18px;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);   
+  }
+  
+  .indentmenu ul{
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 80%; /*width of menu*/
+  border: 1px solid #564c66; /*dark purple border*/
+  border-width: 1px 0;
+
+  }
+  
+  .indentmenu ul li{
+  display: inline;
+  }
+  
+  .indentmenu ul li a{
+  float: left;
+  color: white; /*text color*/
+  padding: 5px 11px;
+  text-decoration: none;
+  border-right: 1px solid #564c66; /*dark purple divider between menu items*/
+  }
+  
+  .indentmenu ul li a:visited{
+  color: white;
+  }
+  
+  .indentmenu ul li a:hover, .indentmenu ul li .current{
+  color: white !important; /*text color of selected and active item*/
+  padding-top: 6px; /*shift text down 1px for selected and active item*/
+  padding-bottom: 4px; /*shift text down 1px for selected and active item*/
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  }
+
 
 
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
-    .bg-image {
-        /* Full height */
-        height: 50%; 
+.bg-image {
+    /* Full height */
+    height: 50%; 
 }
 
 .bg-text {
     font-size: 45px;
-    border: 8px solid #f1f1f1;
+    border: 1px solid #f1f1f1;
     top: 50%;
     width: 300px;
     padding: 10px;
@@ -98,13 +159,13 @@ a.contact-button:hover {
   }
 
 .menu {
-    font-size: 9px;
-    top: 5%;
+    font-size: 5px;
+    top: 2%;
     left: 50%;
     transform: translate(-50%, -50%);   
     }
 a.contact-button {
-    padding: 8px 20px;
+    padding: 8px 10x;
     text-decoration: none;
     background-color: #b8815440;
     display: inline-block;   
