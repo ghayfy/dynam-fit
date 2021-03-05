@@ -113,7 +113,7 @@ li a:hover {
 }
 .flotte {
   float:left;
-  margin-top: -20px;
+  margin-top: -45px;
   margin-right: 30px;
 }
 
@@ -146,54 +146,24 @@ a.contact-button:hover {
   background-color:  black;
 }
 
-/* partie COLONNE */
+/*code images tarifs*/
 
 
-* {
-  box-sizing: border-box;
-}
-
-.row {
-  margin-left:-5px;
-  margin-right:-5px;
-}
+#lesnews img {
+	width:300px;
+	height:300px;
+  display: block;
   
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
+
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+#lesnews div {
+	width:300px;
+  vertical-align:top;
+  display:inline-block;
+  text-align: center;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  border: 1px solid #ddd;
-}
-
-th, td {
-  text-align: left;
-  padding: 16px;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other on screens that are smaller than 600 px */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-  
-}
 
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) 
@@ -211,7 +181,10 @@ img {
 }
 
 
+@media only screen and (max-width: 768px) 
+{
+
 #parallax-world-of-ugg h3 {font-family:'Roboto', sans-serif; font-size:12px; line-height:0; font-weight:100; letter-spacing:-1px; text-transform: uppercase; color:#fabb24;}
 }
-
+}
 
