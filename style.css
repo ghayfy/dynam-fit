@@ -146,7 +146,7 @@ a.contact-button:hover {
   background-color:  black;
 }
 
-/*code images tarifs*/
+/*code images tarifs et activités*/
 
 
 #lesnews img {
@@ -158,7 +158,7 @@ a.contact-button:hover {
 }
 
 #lesnews div {
-	width:350px;
+	width:310px;
   vertical-align:top;
   display:inline-block;
   text-align: center;
