@@ -164,7 +164,10 @@ a.contact-button:hover {
   text-align: center;
 }
 
-
+.page{
+  block-size: 800px;
+  writing-mode: horizontal-tb;
+}
 
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) 
