@@ -131,13 +131,13 @@ div.cover-contact {
 
 a.contact-button {
   color:white;
-  border: 0px solid  black;
+  border: 1px solid  #545454;
   padding: 8px 10px;
   text-decoration: none;
   background-color: #fabb24;
   display: inline-block;
   margin-top: 1px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 a.contact-button:hover {
