@@ -158,11 +158,12 @@ a.contact-button:hover {
 }
 
 #lesnews div {
-	width:300px;
+	width:350px;
   vertical-align:top;
   display:inline-block;
   text-align: center;
 }
+
 
 
 /* RESPONSIVE DESIGN : MOBILE */
