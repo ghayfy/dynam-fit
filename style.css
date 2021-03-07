@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
@@ -91,9 +92,7 @@ li a:hover {
   background-color: black;
 }
 
-.active {
-  background-color: #4CAF50;
-}
+
 
 
 /*partie qui suis-je*/
@@ -169,6 +168,34 @@ a.contact-button:hover {
   writing-mode: horizontal-tb;
 }
 
+
+
+
+
+
+/*pour menu burger*/
+
+#hamnav {
+  width: 100%;
+  background: #fabb24;
+  /* Optional */
+  position: sticky;
+  top: 0;
+}
+
+/* Hide Hamburger */
+#hamnav label, #hamburger { display: none; }
+
+/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) 
 {
@@ -184,11 +211,48 @@ img {
 	height: 100%;
 }
 
+/*pour menu burger*/
+body {
+  font-size: 12px;
+}
+
+ul {
+  background-color: #545454;
+
+}
+/*taille page en mobile*/
+.page{
+  block-size: 1450px;
+
+}
+ /* Show Hamburger Icon */
+ #hamnav label { 
+  display: inline-block; 
+  color: white;
+  background: black;
+  font-style: normal;
+  font-size: 1.8em;
+  padding: 15px;
+}
+
+/* Break down menu items into vertical */
+#hamitems a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-top: 1px solid ;
+}
+
+/* Toggle Show/Hide Menu */
+#hamitems { display: none; }
+#hamnav input:checked ~ #hamitems { display: block; }
+}
+
+
+
 
 @media only screen and (max-width: 768px) 
 {
 
 #parallax-world-of-ugg h3 {font-family:'Roboto', sans-serif; font-size:12px; line-height:0; font-weight:100; letter-spacing:-1px; text-transform: uppercase; color:#fabb24;}
 }
-}
-
