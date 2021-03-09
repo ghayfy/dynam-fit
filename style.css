@@ -100,7 +100,7 @@ li a:hover {
 .container {
   margin: auto; /* To center the text horizontally */
   max-width: 1000px; /* Limiting the width for extra large screens */
-  padding: 100px 100px;
+  padding: 100px 5px;
 }
 .container h3 {
   font-family: 'Roboto', sans-serif;
@@ -449,8 +449,6 @@ ul {
 #hamitems { display: none; }
 #hamnav input:checked ~ #hamitems { display: block; }
 }
-
-
 
 
 
