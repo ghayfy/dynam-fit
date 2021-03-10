@@ -13,7 +13,7 @@
 
 /* Typography */
 /**************************/
-#parallax-world-of-ugg h1 {font-family:'Roboto', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+/*#parallax-world-of-ugg h1 {font-family:'Roboto', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}*/
 #parallax-world-of-ugg h2 {font-family:'Roboto', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:#fabb24; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
 /* #parallax-world-of-ugg h3 {font-family:'Roboto', sans-serif; font-size:18px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:#fabb24;} */
 #parallax-world-of-ugg p {font-family:'Roboto', sans-serif; font-weight:400; font-size:18px; line-height:20px;}
@@ -36,7 +36,7 @@
 /**************************/
 #parallax-world-of-ugg .parallax-one {padding-top: 100px; padding-bottom: 100px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam8.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 #parallax-world-of-ugg .parallax-two {padding-top: 150px; padding-bottom: 150px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam4.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam5.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 100px; padding-bottom: 100px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam5.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 #parallax-world-of-ugg .parallax-four {padding-top: 100px; padding-bottom: 100px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam3.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
 /* Extras - trait entre paragraphe*/
@@ -48,16 +48,13 @@
 @media screen and (max-width: 959px) and (min-width: 768px) {
   #parallax-world-of-ugg .block {padding: 40px; width:620px;}
 }
+
 @media screen and (max-width: 767px) {
   #parallax-world-of-ugg .block {padding: 30px; width:420px;}
   #parallax-world-of-ugg h2 {font-size:30px;}
   #parallax-world-of-ugg .block {padding: 30px;}
   #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three .parallax-four {padding-top:100px; padding-bottom:100px;}
 }
-@media screen and (max-width: 479px) {
-  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
-}
-
 
 
 
@@ -158,12 +155,15 @@ a.contact-button:hover {
   text-align: center;
 }
 
-.page{
+.page1{
   block-size: 800px;
   writing-mode: horizontal-tb;
 }
 
-
+.page2{
+  block-size: 1500px;
+  writing-mode: horizontal-tb;
+}
 
 /*pour menu burger*/
 
@@ -414,7 +414,14 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 /* #parallax-world-of-ugg h3 {font-family:'Roboto', sans-serif; font-size:12px; line-height:0; font-weight:100; letter-spacing:-1px; text-transform: uppercase; color:#fabb24;} */
 
 }
-#parallax-world-of-ugg .block {padding: 30px 15px; width:290px;
+#parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+
+.page1{
+  block-size: 1100px;
+}
+
+.page2{
+  block-size: 1500px;
 
 }
 @media only screen and (max-width: 767px) {
@@ -433,7 +440,11 @@ ul {
 
 }
 /*taille page en mobile*/
-.page{
+.page1{
+  block-size: 1500px;
+
+}
+.page2{
   block-size: 1500px;
 
 }
@@ -462,8 +473,6 @@ ul {
 
 
 
-
-
 @media only screen and (max-width: 768px) 
 {
 
@@ -472,13 +481,9 @@ ul {
 #parallax-world-of-ugg p {font-family:'Roboto', sans-serif; font-weight:400; font-size:14px; line-height:20px;}
 
 .page{
-  block-size: 1250px;
+  block-size: 1100px;
 
 }
-
-
-
-
 
 
 
