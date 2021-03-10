@@ -480,11 +480,14 @@ ul {
 }
 #parallax-world-of-ugg p {font-family:'Roboto', sans-serif; font-weight:400; font-size:14px; line-height:20px;}
 
-.page{
-  block-size: 1100px;
+.page1{
+  block-size: 1500px;
 
 }
+.page2{
+  block-size: 1500px;
 
+}
 
 
 
