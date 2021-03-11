@@ -36,7 +36,7 @@
 /**************************/
 #parallax-world-of-ugg .parallax-one {padding-top: 100px; padding-bottom: 100px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam8.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 #parallax-world-of-ugg .parallax-two {padding-top: 150px; padding-bottom: 150px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam4.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-three {padding-top: 100px; padding-bottom: 100px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam5.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 100px; padding-bottom: 100px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam2.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 #parallax-world-of-ugg .parallax-four {padding-top: 100px; padding-bottom: 100px; overflow: hidden; position: relative; width: 100%; background-image: url(opacity-dynam3.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
 /* Extras - trait entre paragraphe*/
@@ -488,6 +488,5 @@ ul {
   block-size: 1500px;
 
 }
-
 
 
