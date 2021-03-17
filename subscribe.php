@@ -1,34 +1,22 @@
 <?php
+$to = "me@example.com"; // Your Brand Mail ID
+$from = "no-reply@example.com"; // Replace it with your From Mail ID
 
-## CONFIG ##
+$headers = "From: " . $from . "rn";
 
-# LIST EMAIL ADDRESS
-$recipient = "enter the lists email address here";
-
-# SUBJECT (Subscribe/Remove)
-$subject = "Subscribe";
-
-# RESULT PAGE
-$location = "ghayfy@hotmail.com"; #enter the URL of the result page here ##
-
-## FORM VALUES ##
-
-# SENDER - WE ALSO USE THE RECIPIENT AS SENDER IN THIS SAMPLE
-# DON'T INCLUDE UNFILTERED USER INPUT IN THE MAIL HEADER!
-$sender = $recipient;
-
-# MAIL BODY
-$body .= "Name: ".$_REQUEST['Name']." \n";
-$body .= "Email: ".$_REQUEST['Email']." \n";
-# add more fields here if required
-
-## SEND MESSGAE ##
-
-mail( $recipient, $subject, $body, "From: $sender" ) or die ("Mail could not be sent.");
-
-## SHOW RESULT PAGE ##
-
-header( "Location: $location" );
+$subject = "New subscription";
+$body = "New user subscription: " . $_POST['email'];
+if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) )
+{
+if (mail($to, $subject, $body, $headers, "-f " . $from))
+{
+echo 'Your e-mail (' . $_POST['email'] . ') has been added to our mailing list!';
+}
+else
+{
+echo 'There was a problem with your e-mail (' . $_POST['email'] . ')';
+}
+}
 ?>
  
 

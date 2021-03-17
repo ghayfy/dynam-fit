@@ -338,9 +338,9 @@ display : inline-block;
 /*SOCIAL MEDIA*/
 
 .fa {
-  padding: 15px;
-  font-size: 30px;
-  width: 20px;
+  padding: 9px;
+  font-size: 25px;
+  width: 15px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -351,22 +351,22 @@ display : inline-block;
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #545454;
   color: white;
 }
 
 .fa-youtube {
-  background: #bb0000;
+  background: #545454;
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #545454;
   color: white;
 }
 
 .fa-vimeo {
-  background: #45bbff;
+  background: #545454;
   color: white;
 }
 
@@ -508,13 +508,13 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   width: 100%;
 }
 /**************************/
+footer p{
+  font-family: 'Martel', serif;
+  text-align:center;
+}
 
 
 /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
-
-footer p{
-  font-family: 'Martel', serif;
-}
 
 
 
@@ -711,7 +711,7 @@ ul {
 }
 .petit-logo img{
   width: 40%;
-  margin-left: 30%;=:ç
+  margin-left: 30%;
 }
 
 }
