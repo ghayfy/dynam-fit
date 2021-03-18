@@ -1,5 +1,5 @@
 <?php
-$to = "me@example.com"; // Your Brand Mail ID
+$to = "ghayfy@hotmail.com"; // Your Brand Mail ID
 $from = "no-reply@example.com"; // Replace it with your From Mail ID
 
 $headers = "From: " . $from . "rn";
