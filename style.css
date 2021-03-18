@@ -517,7 +517,6 @@ footer p{
 /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
 
-
 /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
 /* CITATION */
@@ -628,7 +627,6 @@ footer p{
   width:290px;}
 
 
-
 @media only screen and (max-width: 767px) {
 
 
@@ -647,8 +645,6 @@ ul {
   background-color: #545454;
 
 }
-
-
 
  /* Show Hamburger Icon */
  #hamnav label { 
@@ -672,6 +668,7 @@ ul {
 #hamitems { display: none; }
 #hamnav input:checked ~ #hamitems { display: block; }
 }
+
 
 
 
@@ -705,13 +702,6 @@ ul {
 }
 
 
-/*citation*/
-.blockquote-wrapper {
-  height: 140vh;
-}
-.petit-logo img{
-  width: 40%;
-  margin-left: 30%;
-}
+
 
 }
