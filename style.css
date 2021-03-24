@@ -192,6 +192,7 @@ a.contact-button:hover {
   display : inline-block;
   text-align : center;
   }
+  
 #lesnews2 img {
   width : 300px;
   height : 300px;
@@ -248,7 +249,7 @@ a.contact-button:hover {
 /*Partie CONTACT*/
 
 #fcf-form {
-  display:block;
+  display:inline block;
 }
 
 .fcf-body {
@@ -359,7 +360,7 @@ display : inline-block;
   color: white;
 }
 
-.fa-vimeo {
+.fa-vimeo-square {
   background: #545454;
   color: white;
 }
@@ -591,6 +592,10 @@ footer p{
   }
 
 
+/*HHHHHHHHHHHHHHHHHHHHHHHHH*/
+
+/*IMGE SOLO PAIEMENT ABONNEMEZNT*/
+
 
 /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
@@ -654,7 +659,6 @@ ul {
 #hamnav input:checked ~ #hamitems { display: block; }
 }
 
-
 @media only screen and (max-width: 768px) {
 
 #parallax-world-of-ugg p {
@@ -675,6 +679,4 @@ ul {
 #scroll_to_top img {
   width: 25px;
 }
-
-
 }

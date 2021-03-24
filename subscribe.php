@@ -1,20 +1,20 @@
 <?php
 $to = "ghayfy@hotmail.com"; // Your Brand Mail ID
-$from = "no-reply@example.com"; // Replace it with your From Mail ID
+$from = "ghayfy@hotmail.com"; // Replace it with your From Mail ID
 
 $headers = "From: " . $from . "rn";
 
-$subject = "New subscription";
-$body = "New user subscription: " . $_POST['email'];
+$subject = "Nouvel abonnement";
+$body = "Nouvel abonnement utilisateur: " . $_POST['email'];
 if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) )
 {
 if (mail($to, $subject, $body, $headers, "-f " . $from))
 {
-echo 'Your e-mail (' . $_POST['email'] . ') has been added to our mailing list!';
+echo 'Votre e-mail (' . $_POST['email'] . ') a été ajouté à notre liste de diffusion!';
 }
 else
 {
-echo 'There was a problem with your e-mail (' . $_POST['email'] . ')';
+echo 'Il y a eu un problème avec votre e-mail (' . $_POST['email'] . ')';
 }
 }
 ?>
