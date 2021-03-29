@@ -43,7 +43,7 @@
         <br>Juste ce qu'il faut pour vous permettre de GARDER LA FORME au quotidien.
         <br>Mets vite tes baskets et viens me rejoindre pour la prochaine séance.<br>
           <br>Le changement, c'est maintenant !<br>
-          <br><b>BIENVENUE DANS LA TEAM DES DYNAMFITEURS</b></p>
+          <br><b>BIENVENUE DANS LA TEAM DES DYNAMFITEURS</b>
       </p>
             
       <a style="text-align: center;">
@@ -62,57 +62,58 @@
       setInterval("blink(bl)",500);
     </script>
 
-        <div id="bl" style="visibility: visible"><font size=+2 color=#fabb24><b>ABONNEZ-VOUS</b></font></div> 
+        <div id="bl" style="visibility: visible"><font size=+1 color=#fabb24><b>ABONNEZ-VOUS</b></font></div> 
       
       </a>
       <br>
-        <img style="  width : 350px; height : 350px" src="tarif1.png">
+        <img style="  width : 350px; height : 350px" src="tarif1.png" alt="">
       <br><br>
 
     <div id="paypal-button-container-P-9R779815AF3652703MBOI3BI"></div>
 
-    <script src="https://www.paypal.com/sdk/js?client-id=Act1A0_1QGGyYCpt2qS8CuRbBW9vL-YEdnUWrKuvCko_uJq38vP9meotQq9ASvintUInca0RAIFKkIb2&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+      <script src="https://www.paypal.com/sdk/js?client-id=Act1A0_1QGGyYCpt2qS8CuRbBW9vL-YEdnUWrKuvCko_uJq38vP9meotQq9ASvintUInca0RAIFKkIb2&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
 
-    <script>
+      <script>
 
-      paypal.Buttons({
+        paypal.Buttons({
 
-          style: {
-              shape: 'rect',
-              color: 'gold',
-              layout: 'vertical',
-              label: 'subscribe'
-          },
+            style: {
+                shape: 'rect',
+                color: 'gold',
+                layout: 'vertical',
+                label: 'subscribe'
+            },
 
-          createSubscription: function(data, actions) {
+            createSubscription: function(data, actions) {
 
-            return actions.subscription.create({
+              return actions.subscription.create({
 
-              /* Creates the subscription */
+                /* Creates the subscription */
 
-              plan_id: 'P-9R779815AF3652703MBOI3BI'
+                plan_id: 'P-9R779815AF3652703MBOI3BI'
 
-            });
+              });
 
-          },
+            },
 
-          onApprove: function(data, actions) {
+            onApprove: function(data, actions) {
 
-            alert(data.subscriptionID); // You can add optional success message for the subscriber here
+              alert(data.subscriptionID); // You can add optional success message for the subscriber here
 
-          }
+            }
 
-      }).render('#paypal-button-container-P-9R779815AF3652703MBOI3BI'); // Renders the PayPal button
+        }).render('#paypal-button-container-P-9R779815AF3652703MBOI3BI'); // Renders the PayPal button
 
-    </script>
-
+      </script>
+    </div>
 
     <br>
     <div class="cover">
       <div style="text-align: center; text-decoration:none;">
-          <a class="contact-button" href="mailto:dalila.zumbafit@hotmail.com?subject=Renseignement">CONTACTEZ-MOI</a>
+          <a class="contact-button" href="mailto:dalila.zumbafit@hotmail.com?subject=Renseignements">CONTACTEZ-MOI</a>
       </div>
     </div>
+
   </section>
                 
   <div class="blockquote-wrapper">
@@ -120,7 +121,7 @@
       <br><br><br>
     
       <div class="petit-logo">
-        <img src="logo-blanc1.png">
+        <img src="petit-logo-blanc.png" alt="">
       </div>
       <br><br>
       <h1>
@@ -154,8 +155,8 @@
           /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
         </style>
-        <div id="mc_embed_signup" style="text-align: center">
-        <form action="https://hotmail.us1.list-manage.com/subscribe/post?u=8e4b66bb39a248fe84fb33a9b&amp;id=5b0c499f3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup">
+        <form action="https://hotmail.us1.list-manage.com/subscribe/post?u=8e4b66bb39a248fe84fb33a9b&amp;id=5b0c499f3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="text-align: center" novalidate>
             <div id="mc_embed_signup_scroll">
           <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Entrez votre adresse mail" required>
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -173,8 +174,10 @@
 </footer>
 
 <div id="scroll_to_top">
-  <a href="#top"><img src="haut5.png" alt="Retourner en haut" /></a>
-</div> 
+  <a href="#top"><img src="retour-haut.png" alt="Retourner en haut" /></a>
+</div>   
+
+  
 
 
 

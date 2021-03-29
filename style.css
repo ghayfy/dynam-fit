@@ -46,7 +46,7 @@
   overflow : hidden;
   position : relative;
   width : 100%;
-  background-image : url(opacity-dynam8.jpg);
+  background-image : url(opacity1.jpg);
   background-attachment : fixed;
   background-size : cover;
   background-repeat : no-repeat;
@@ -59,7 +59,7 @@
   overflow : hidden;
   position : relative;
   width : 100%;
-  background-image : url(opacity-dynam4.jpg);
+  background-image : url(opacity4.jpg);
   background-attachment : fixed;
   background-size : cover;
   background-repeat : no-repeat;
@@ -71,7 +71,7 @@
   overflow : hidden;
   position : relative;
   width : 100%;
-  background-image : url(opacity-dynam2.jpg);
+  background-image : url(opacity2.jpg);
   background-attachment : fixed;
   background-size : cover;
   background-repeat : no-repeat;
@@ -83,7 +83,7 @@
   overflow : hidden;
   position : relative;
   width : 100%;
-  background-image : url(opacity-dynam3.jpg);
+  background-image : url(opacity3.jpg);
   background-attachment : fixed;
   background-size : cover;
   background-repeat : no-repeat;
@@ -202,6 +202,18 @@ a.contact-button:hover {
   text-align : center;
   }
 
+#lesnews3 img {
+  width : 300px;
+  height : 300px;
+  display : block;
+  }
+#lesnews3 div {
+  width : 300px;
+  vertical-align : top;
+  display : inline-block;
+  text-align : center;
+  }
+  
 .zoom {
   width: 320px;
   height: 240px;

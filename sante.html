@@ -50,77 +50,77 @@
           <br><b>BIENVENUE DANS LA TEAM DES DYNAMFITEURS</b>
         </p>
           
-          <a style="text-align: center;">
-            <script>
-              function blink(ob)
-              {
-              if (ob.style.visibility == "visible" )
-              {
-              ob.style.visibility = "hidden";
-              }
-              else
-              {
-              ob.style.visibility = "visible";
-              }
-              }
-              setInterval("blink(bl)",500);
-              </script>
-
-              <div id="bl" style="visibility: visible"><font size=+2 color=#fabb24><b>ABONNEZ-VOUS</b></font></div> 
-        
-          </a>
-        <br>
-      <img style="  width : 350px; height : 350px" src="tarif3.png">
-     	<br><br>
-
-
-      <div id="paypal-button-container-P-8EH01687LC425931KMBOJG6Y"></div>
-
-      <script src="https://www.paypal.com/sdk/js?client-id=Act1A0_1QGGyYCpt2qS8CuRbBW9vL-YEdnUWrKuvCko_uJq38vP9meotQq9ASvintUInca0RAIFKkIb2&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-       
-      <script>
-      
-        paypal.Buttons({
-      
-            style: {
-      
-                shape: 'rect',
-      
-                color: 'gold',
-      
-                layout: 'vertical',
-      
-                label: 'subscribe'
-      
-            },
-      
-            createSubscription: function(data, actions) {
-      
-              return actions.subscription.create({
-      
-                /* Creates the subscription */
-      
-                plan_id: 'P-8EH01687LC425931KMBOJG6Y'
-      
-              });
-      
-            },
-      
-            onApprove: function(data, actions) {
-      
-              alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      
+        <a style="text-align: center;">
+          <script>
+            function blink(ob)
+            {
+            if (ob.style.visibility == "visible" )
+            {
+            ob.style.visibility = "hidden";
             }
-      
-        }).render('#paypal-button-container-P-8EH01687LC425931KMBOJG6Y'); // Renders the PayPal button
-      
-      </script>
+            else
+            {
+            ob.style.visibility = "visible";
+            }
+            }
+            setInterval("blink(bl)",500);
+            </script>
 
+            <div id="bl" style="visibility: visible"><font size=+1 color=#fabb24><b>ABONNEZ-VOUS</b></font></div> 
+      
+        </a>
+        <br>
+        <img style="  width : 350px; height : 350px" src="tarif3.png" alt="">
+        <br><br>
+
+
+        <div id="paypal-button-container-P-8EH01687LC425931KMBOJG6Y"></div>
+
+        <script src="https://www.paypal.com/sdk/js?client-id=Act1A0_1QGGyYCpt2qS8CuRbBW9vL-YEdnUWrKuvCko_uJq38vP9meotQq9ASvintUInca0RAIFKkIb2&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+       
+        <script>
+        
+          paypal.Buttons({
+        
+              style: {
+        
+                  shape: 'rect',
+        
+                  color: 'gold',
+        
+                  layout: 'vertical',
+        
+                  label: 'subscribe'
+        
+              },
+        
+              createSubscription: function(data, actions) {
+        
+                return actions.subscription.create({
+        
+                  /* Creates the subscription */
+        
+                  plan_id: 'P-8EH01687LC425931KMBOJG6Y'
+        
+                });
+        
+              },
+        
+              onApprove: function(data, actions) {
+        
+                alert(data.subscriptionID); // You can add optional success message for the subscriber here
+        
+              }
+        
+          }).render('#paypal-button-container-P-8EH01687LC425931KMBOJG6Y'); // Renders the PayPal button
+        
+        </script>
+      </div>
 
       <br>
       <div class="cover">
         <div style="text-align: center; text-decoration:none;">
-            <a class="contact-button" href="mailto:dalila.zumbafit@hotmail.com?subject=Renseignement">CONTACTEZ-MOI</a>
+            <a class="contact-button" href="mailto:dalila.zumbafit@hotmail.com?subject=Renseignements">CONTACTEZ-MOI</a>
         </div>
       </div>
 
@@ -131,7 +131,7 @@
         <br><br><br>
        
         <div class="petit-logo">
-          <img src="logo-blanc1.png">
+          <img src="petit-logo-blanc.png" alt="">
         </div>
         <br><br>
         <h1>
@@ -184,8 +184,10 @@
   </footer>
   
   <div id="scroll_to_top">
-    <a href="#top"><img src="haut5.png" alt="Retourner en haut" /></a>
-  </div> 
+    <a href="#top"><img src="retour-haut.png" alt="Retourner en haut" /></a>
+  </div>   
+
+    
   
 
 	</body>
