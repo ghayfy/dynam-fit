@@ -240,12 +240,10 @@ a.contact-button:hover {
   transform:scale(2);
   }
 
-/* MENU BURGER */
+/*MENU BURGER*/
 
-header {
-  position: relative;}
-main 
-  {padding: 12rem;}
+header {position: relative;}
+main {padding: 2rem;}
 
 /************** NAVIGATION ***************/
 
@@ -267,7 +265,7 @@ nav a {
 	text-decoration: none;
 	color: inherit;
 	display: block;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 }
 nav a:hover {
 	background: #545454;
@@ -281,22 +279,23 @@ nav li {
 }  
 nav input,
 nav label {
-  display : none;
-  width : 36px;
-  height : 36px;
-  background : #fabb24;
-  color : #fff;
-  text-align : center;
-  line-height : 36px;
-
+	display: none;
+	width: 36px; 
+	height: 36px; 
+	background: #555; 
+	color: #fff; 
+	text-align: center; 
+	line-height: 36px;
+	font-size: 1.6rem;
+	border-radius: 2px;
 } 
 nav label {
    position: absolute; 
    top: 8px; 
    right: 8px; 
+   transition: .4s;
 }
-nav label:hover {
-  cursor:pointer;}
+nav label:hover {cursor:pointer;}
 nav label:before {
 	font-family: FontAwesome;
 	font-size: 24px;
@@ -336,6 +335,7 @@ nav label:before {
 		color: #fff;
 	}  
 }
+
 /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
 
@@ -665,20 +665,30 @@ footer p{
   text-transform:uppercase; 
   z-index:10; 
   opacity:.9;}
-}
+
 #parallax-world-of-ugg .block {
   padding: 30px 15px; 
   width:290px;}
 
 
-@media only screen and (max-width: 767px) {
-  img {
+
+
+img {
 	width: 100%;
 	height: 100%;
 }
+
+/*pour menu burger*/
+body {
+  font-size: 12px;
 }
 
+ul {
+  background-color: #545454;
 
+}
+
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -687,28 +697,30 @@ footer p{
   font-weight:400; 
   font-size:14px; 
   line-height:20px;}
-}
+
 
 /*bouton flêche vers le haut*/
 #scroll_to_top {
   position: fixed;
-  width: 25px;
+  width: 40px;
   height: 25px;
   bottom: 50px;
   right: 13px;
 }
 #scroll_to_top img {
-  width: 25px;
+  width: 32px;
 }
 .container-1 {
-  height: 50vh;
+  height: 30vh;
 }
 
 .box > span {
-  font-size: 1.2vh;
+  font-size: 1.2vh;}
+
+footer a {
+  font-size:13px;
 }
 
-
-
+}
 
 
