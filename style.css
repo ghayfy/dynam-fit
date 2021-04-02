@@ -240,19 +240,102 @@ a.contact-button:hover {
   transform:scale(2);
   }
 
-/*pour menu burger*/
+/* MENU BURGER */
 
-#hamnav {
-  width : 100%;
+header {
+  position: relative;}
+main 
+  {padding: 12rem;}
+
+/************** NAVIGATION ***************/
+
+nav ul {
+	display: flex; 
+	flex-wrap: wrap; 
+	max-width: 2100px; 
+	margin: 0 auto;		
+  background: #fabb24;
+}
+nav ul,
+nav li {
+	flex: 1;	
+}
+nav li:last-child {
+   border-bottom: none;
+}
+nav a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	font-size: 1.4rem;
+}
+nav a:hover {
+	background: #545454;
+	color: #fff;
+}
+nav li {
+	position: relative;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+}  
+nav input,
+nav label {
+  display : none;
+  width : 36px;
+  height : 36px;
   background : #fabb24;
-  top : 0;
-  }
+  color : #fff;
+  text-align : center;
+  line-height : 36px;
 
-/* Hide Hamburger */
-#hamnav label, #hamburger { 
-  display: none; 
+} 
+nav label {
+   position: absolute; 
+   top: 8px; 
+   right: 8px; 
+}
+nav label:hover {
+  cursor:pointer;}
+nav label:before {
+	font-family: FontAwesome;
+	font-size: 24px;
+	content: "\f0c9";
+	text-align: center;
 }
 
+/************* MEDIA QUERIES **************/
+
+@media only screen and (max-width: 1080px){
+   nav {
+      position: relative;
+   }
+	nav ul {
+		transform: translateY(0);
+		box-shadow: 0 0 5px rgba(0,0,0, .7);
+      transition: all .5s;
+      position: absolute;
+      width: 100%;
+	}
+	nav li {
+		flex: none; 
+		width: 100%;
+		border-bottom: solid 1px #777;
+	} 
+	nav input[type="checkbox"]:checked + ul  {
+		transform: translateY(-100%);
+		width: 100%;
+		background: #999;   
+      transition: all .5s;
+	}
+	nav label{
+      display: block;
+   }  
+	nav input[type="checkbox"]:checked + ul li:nth-child(1){
+		background: #777; 
+		color: #fff;
+	}  
+}
 /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
 
@@ -589,44 +672,13 @@ footer p{
 
 
 @media only screen and (max-width: 767px) {
-
-img {
+  img {
 	width: 100%;
 	height: 100%;
 }
-
-/*pour menu burger*/
-body {
-  font-size: 12px;
 }
 
-ul {
-  background-color: #545454;
 
-}
-
- /* Show Hamburger Icon */
- #hamnav label { 
-  display: inline-block; 
-  color: white;
-  background: black;
-  font-style: normal;
-  font-size: 1.8em;
-  padding: 15px;
-}
-
-/* Break down menu items into vertical */
-#hamitems a {
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-  border-top: 1px solid ;
-}
-
-/* Toggle Show/Hide Menu */
-#hamitems { display: none; }
-#hamnav input:checked ~ #hamitems { display: block; }
-}
 
 @media only screen and (max-width: 768px) {
 
@@ -635,7 +687,7 @@ ul {
   font-weight:400; 
   font-size:14px; 
   line-height:20px;}
-
+}
 
 /*bouton flêche vers le haut*/
 #scroll_to_top {
@@ -654,9 +706,9 @@ ul {
 
 .box > span {
   font-size: 1.2vh;
-
 }
 
-}
+
+
 
 
