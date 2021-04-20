@@ -136,7 +136,7 @@ li a:hover {
 }
 .flotte {
   float:left;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-right: 10px;
 }
 
@@ -313,7 +313,192 @@ nav label:before {
 
 /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
+/*BOOTSTRAP PRICING* 1ER BLOCK*/
 
+.pricingdiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.pricingdiv ul.theplan{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: white;
+  background: #fabb24;
+  position: relative;
+  width: 350px; /* width of each table */
+  margin-right: 10px; /* spacing between tables */
+  margin-bottom: 1em;
+  transition: all .5s;
+}
+
+.pricingdiv ul.theplan:hover{ /* when mouse hover over pricing table */
+  transform: scale(1.05);
+  transition: all .5s;
+  z-index: 100;
+  box-shadow: 0 0 10px gray;
+}
+
+.pricingdiv ul.theplan li{
+  margin: 10px 20px;
+  position: relative;
+}
+
+.pricingdiv ul.theplan li.title{
+  font-size: 190%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-bottom: 5px solid white;
+}
+
+.pricingdiv ul.theplan:nth-of-type(2){
+  background: #545454;
+}
+    
+.pricingdiv ul.theplan:nth-of-type(3){
+  background: #fabb24;
+}
+
+.pricingdiv ul.theplan:last-of-type{ /* remove right margin in very last table */
+  margin-right: 0;
+}
+
+/*very last LI within each pricing UL */
+.pricingdiv ul.theplan li:last-of-type{
+  text-align: center;
+  margin-top: auto; /*align last LI (price botton li) to the very bottom of UL */
+}  
+
+.pricingdiv a.pricebutton{
+  
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+/*BOOTSTRAP PRICING* 2EME BLOCK*/
+
+.pricingdiv2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.pricingdiv2 ul.theplan2{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: white;
+  background: #545454;
+  position: relative;
+  width: 350px; /* width of each table */
+  margin-right: 10px; /* spacing between tables */
+  margin-bottom: 1em;
+  transition: all .5s;
+}
+
+.pricingdiv2 ul.theplan2:hover{ /* when mouse hover over pricing table */
+  transform: scale(1.05);
+  transition: all .5s;
+  z-index: 100;
+  box-shadow: 0 0 10px gray;
+}
+
+.pricingdiv2 ul.theplan2 li{
+  margin: 10px 20px;
+  position: relative;
+}
+
+.pricingdiv2 ul.theplan2 li.title{
+  font-size: 190%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-bottom: 5px solid white;
+}
+
+.pricingdiv2 ul.theplan2:nth-of-type(2){
+  background: #fabb24;
+}
+    
+.pricingdiv2 ul.theplan2:nth-of-type(3){
+  background: #545454;
+}
+
+.pricingdiv2 ul.theplan2:last-of-type{ /* remove right margin in very last table */
+  margin-right: 0;
+}
+
+/*very last LI within each pricing UL */
+.pricingdiv2 ul.theplan2 li:last-of-type{
+  text-align: center;
+  margin-top: auto; /*align last LI (price botton li) to the very bottom of UL */
+}  
+
+.pricingdiv2 a.pricebutton{
+  
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+.pricingdiv ul.theplan{
+  border-radius: 0;
+  width: 100%;
+  margin-right: 0;
+}
+
+.pricingdiv ul.theplan:hover{
+  transform: none;
+  box-shadow: none;
+}
+
+.pricingdiv a.pricebutton{
+  display: block;
+}
+
+
+.pricingdiv2 ul.theplan2{
+  border-radius: 0;
+  width: 100%;
+  margin-right: 0;
+}
+
+.pricingdiv2 ul.theplan:hover2{
+  transform: none;
+  box-shadow: none;
+}
+
+.pricingdiv2 a.pricebutton{
+  display: block;
+}
+
+}
 
 /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
@@ -516,7 +701,7 @@ footer p{
 }
 
 .box > span {
-  font-size: 2.1vh;
+  font-size: 1.7vh;
   display: block;
   text-align: center;
   height: 10vh;
@@ -557,7 +742,7 @@ footer p{
   }
 
 /* Blockquote header */
-.blockquote h1 {
+.blockquote h3 {
   font-family: 'Abril Fatface', cursive;
   position: relative; /* for pseudos */
   color: #fabb24;
@@ -572,7 +757,7 @@ footer p{
 }
 
 /* Blockquote right double quotes */
-.blockquote h1:after {
+.blockquote h3:after {
   content:"";
   position: absolute;
   border: 2px solid #fabb24;
@@ -586,7 +771,7 @@ footer p{
   z-index: 3; 
 }
 
-.blockquote h1:before {
+.blockquote h3:before {
   content : "";
   position : absolute;
   width : 90px;
@@ -597,7 +782,7 @@ footer p{
   }
 
 /* increase header size after 600px */
-.blockquote h1 {
+.blockquote h3 {
   line-height : 1.2;
   }
 
@@ -646,8 +831,6 @@ footer p{
   width:290px;}
 
 
-
-
 img {
 	width: 100%;
 	height: 100%;
@@ -690,7 +873,7 @@ ul {
 }
 
 .box > span {
-  font-size: 1.2vh;}
+  font-size: 0.8vh;}
 
 footer a {
   font-size:13px;
