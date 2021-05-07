@@ -99,7 +99,7 @@ h1{
     line-height: 1.8;
   }
   .flotte {
-    float:left;
+    float :right;
     margin-top: -85px;
 
   }
