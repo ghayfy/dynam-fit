@@ -67,6 +67,11 @@ h1{
     line-height: 1.2;
 }
 
+.p {
+
+  margin: 0px 30px 0px 30px;
+
+}
 
 .video-container {
     z-index: -100;
