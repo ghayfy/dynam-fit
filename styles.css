@@ -636,7 +636,12 @@ footer p {
     .container-1 {
         height: 30vh;
         }
-        
+    .flotte {
+
+      margin-top: -15px;
+  
+    }
+    
     }
     
 @media (min-width: 768px) { 
