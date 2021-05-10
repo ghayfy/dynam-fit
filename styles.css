@@ -67,12 +67,6 @@ h1{
     line-height: 1.2;
 }
 
-
-
-  
-
-
-
 .video-container {
     z-index: -100;
     width:100%;
@@ -114,7 +108,8 @@ div.cover-contact {
     }
 a.contact-button {
     color : white;
-    border : 1px solid #545454;
+    border : 1px solid #545454; 
+    border-radius: 10px 0px 10px 0px;
     padding : 8px 10px;
     text-decoration : none;
     background-color : #fabb24;
@@ -125,7 +120,8 @@ a.contact-button {
 a.contact-button:hover {
     color : #fabb24;
     border : 1px solid #fabb24;
-    background-color : black;
+    
+    background-color : #545454;
     }
 
 
@@ -555,31 +551,50 @@ footer p {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    border-radius: 10px 0px 10px 0px;
   }
   
   .fa:hover {
-      opacity: 0.7;
+      opacity: 1.2;
   }
   
-  .fa-facebook {
+  .fa-facebook{
     background: #545454;
     color: white;
   }
+  .fa-facebook:hover {
+    color : white;
+    background-color : #3b5998;
+    }
+
   
   .fa-youtube {
     background: #545454;
     color: white;
   }
+  .fa-youtube:hover {
+    color : white;
+    background-color : #c4302b;
+    }
   
   .fa-instagram {
     background: #545454;
     color: white;
   }
-  
-  .fa-vimeo-square {
+  .fa-instagram:hover {
+    color : white;
+    background-color : #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    }
+
+  .fa-vimeo {
     background: #545454;
     color: white;
   }
+  .fa-vimeo:hover {
+    color : white;
+    background-color : #86c9ef;
+    }
 
 
   
