@@ -289,7 +289,7 @@ a.contact-button:hover {
     margin-right: 0;
   }
   
-  /*very last LI within each pricing UL */
+/*very last LI within each pricing UL */
   .pricingdiv ul.theplan li:last-of-type{
     text-align: center;
     margin-top: auto; /*align last LI (price botton li) to the very bottom of UL */
@@ -306,9 +306,9 @@ a.contact-button:hover {
     text-transform: uppercase;
   }
   
-  /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
-  /*BOOTSTRAP PRICING* 2EME BLOCK*/
-  
+/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+/*BOOTSTRAP PRICING* 2EME BLOCK*/
+
   .pricingdiv2{
     display: flex;
     flex-wrap: wrap;
@@ -365,7 +365,7 @@ a.contact-button:hover {
     margin-right: 0;
   }
   
-  /*very last LI within each pricing UL */
+/*very last LI within each pricing UL */
   .pricingdiv2 ul.theplan2 li:last-of-type{
     text-align: center;
     margin-top: auto; /*align last LI (price botton li) to the very bottom of UL */
@@ -382,7 +382,7 @@ a.contact-button:hover {
     text-transform: uppercase;
   }
 
-  /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
 
 /*GALERIE*/
@@ -425,10 +425,10 @@ a.contact-button:hover {
     height: 100%;
   }
    
-  
-  /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
-  
-  /* CITATION */
+
+/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+
+/* CITATION */
   
   /* => petit logo*/
   .petit-logo img{
@@ -452,7 +452,7 @@ a.contact-button:hover {
     margin : 80px auto;
     }
   
-  /* Blockquote header */
+/* Blockquote header */
   .blockquote h3 {
     font-family: 'Abril Fatface', cursive;
     position: relative; /* for pseudos */
@@ -467,7 +467,7 @@ a.contact-button:hover {
     padding: 25px;
   }
   
-  /* Blockquote right double quotes */
+/* Blockquote right double quotes */
   .blockquote h3:after {
     content:"";
     position: absolute;
@@ -492,12 +492,12 @@ a.contact-button:hover {
     z-index : 2;
     }
   
-  /* increase header size after 600px */
+/* increase header size after 600px */
   .blockquote h3 {
     line-height : 1.2;
     }
   
-  /* Blockquote subheader */
+/* Blockquote subheader */
 .blockquote h4 {
     position : relative;
     color : #ffffff;
@@ -528,7 +528,7 @@ a.contact-button:hover {
     width: 30px;
   }
 
-    /**************************/
+/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
 footer p {
     font-family: 'Martel', serif;
@@ -540,18 +540,18 @@ footer p {
 
   }
   
-  /*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
 
 /*SOCIAL MEDIA*/
 
-.fa {
-    padding: 9px;
-    font-size: 25px;
-    width: 35px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 10px 0px 10px 0px;
+  .fa {
+      padding: 9px;
+      font-size: 25px;
+      width: 35px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 10px 0px 10px 0px;
   }
   
   .fa:hover {
@@ -598,94 +598,92 @@ footer p {
 
 
   
-  /*HHHHHHHHHHHHHHHHHHHHHHHHH*/
-  /* RESPONSIVE DESIGN : MOBILE */
+/*HHHHHHHHHHHHHHHHHHHHHHHHH*/
+/* RESPONSIVE DESIGN : MOBILE */
+
+@media only screen and (max-width: 500px) {
+  .pricingdiv ul.theplan{
+      border-radius: 0;
+      width: 100%;
+      margin-right: 0;
+  }
   
-  @media only screen and (max-width: 500px) {
-    .pricingdiv ul.theplan{
-        border-radius: 0;
-        width: 100%;
-        margin-right: 0;
-    }
-    
-    .pricingdiv ul.theplan:hover{
-        transform: none;
-        box-shadow: none;
-    }
-    
-    .pricingdiv a.pricebutton{
-        display: block;
-    }
-    
-    
-    .pricingdiv2 ul.theplan2{
-        border-radius: 0;
-        width: 100%;
-        margin-right: 0;
-    }
-    
-    .pricingdiv2 ul.theplan:hover2{
-        transform: none;
-        box-shadow: none;
-    }
+  .pricingdiv ul.theplan:hover{
+      transform: none;
+      box-shadow: none;
+  }
   
-    .pricingdiv2 a.pricebutton{
-        display: block;
-    }
+  .pricingdiv a.pricebutton{
+      display: block;
+  }
   
+  
+  .pricingdiv2 ul.theplan2{
+      border-radius: 0;
+      width: 100%;
+      margin-right: 0;
+  }
+  
+  .pricingdiv2 ul.theplan:hover2{
+      transform: none;
+      box-shadow: none;
   }
 
+  .pricingdiv2 a.pricebutton{
+      display: block;
+  }
 
-  @media only screen and (max-width: 767px) {
+}
 
-    h1{
-        font-size: 1.1em;}
-    
 
-    #main-parallax h2 {
+@media only screen and (max-width: 767px) {
 
-        font-size:22px; 
-        }
-
-    /*GALERIE*/
-    .container-1 {
-        height: 30vh;
-        }
-    .flotte {
-
-      margin-top: -15px;
+  h1{
+      font-size: 1.1em;}
   
-    }
-    
-    }
+
+  #main-parallax h2 {
+
+      font-size:22px; 
+      }
+
+/*GALERIE*/
+  .container-1 {
+      height: 30vh;
+      }
+  .flotte {
+    margin-top: -15px;
+  }
+  
+}
     
 @media (min-width: 768px) { 
-    .menu-icon {
-        display: none;
-    }
-    nav {
-        position: relative;
-        top: -10px;
-        background-color: transparent;
-    }
-    nav ul {
-        max-height: 70px;
-        padding: 15px 0;
-        text-align: right;
-    }
-    nav ul li {
-        display: inline-flex;
-        padding-left: 20px;
-    }
-    
+  .menu-icon {
+      display: none;
+  }
+  nav {
+      position: relative;
+      top: -10px;
+      background-color: transparent;
+  }
+  nav ul {
+      max-height: 70px;
+      padding: 15px 0;
+      text-align: right;
+  }
+  nav ul li {
+      display: inline-flex;
+      padding-left: 20px;
+  }
+  
 }
 
 @media only screen and (max-width: 1080px){
 
-    /*GALERIE*/
-    .container-1 {
-        height: 30vh;
-        }
+/*GALERIE*/
+  .container-1 {
+    height: 30vh;
+    }
 }
     
 
